@@ -18,17 +18,18 @@
         "mousekey": true,
         "nkro": true
     },
+    "bootmagic": {
+        "enabled": true,
+        "matrix" : [0,0]
+    },
     "split": {
         "enabled": true,
-        "handedness": {
-                "pin": "GP22"
-            },
-            "serial": {
-                "driver": "vendor"
-            },
-            "transport": {
-                "watchdog": true
-            }
+        "serial": {
+            "driver": "vendor"
+        },
+        "transport": {
+            "watchdog": true
+        }
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {

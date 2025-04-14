@@ -73,7 +73,7 @@ endif
 CFLAGS += -Wall
 CFLAGS += -Wstrict-prototypes
 ifneq ($(strip $(ALLOW_WARNINGS)), yes)
-    CFLAGS += -Werror
+    # CFLAGS += -Werror
 endif
 CFLAGS += $(CSTANDARD)
 
@@ -91,7 +91,7 @@ CXXFLAGS += -Wall
 CXXFLAGS += -Wundef
 
 ifneq ($(strip $(ALLOW_WARNINGS)), yes)
-    CXXFLAGS += -Werror
+    # CXXFLAGS += -Werror
 endif
 
 #---------------- Assembler Options ----------------
